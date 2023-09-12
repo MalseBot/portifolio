@@ -25,37 +25,37 @@ const NavBar = () => {
         </Link>
       </div>
       <div className=' fixed top-10 z-10'>
-        <a href='https://www.instagram.com/eslamwtf/' target='_blank'>
+        <a href='https://www.instagram.com/eslamwtf/' target='_blank' rel="noreferrer">
           <div className='border-sky-200 border-e-2 rounded-e-3xl bg-sky-700 w-10 h-10 hover:scale-125 my-1 hover:translate-x-1 hover:transform hover:duration-300 -translate-x-0 duration-300 hover:z-50 '>
             <img src={Insta} className=' w-8 translate-y-1' alt='instagram' />
           </div>
         </a>
         <a
           href='https://www.linkedin.com/in/eslam-hegazi-6927751a1/'
-          target='_blank'>
+          target='_blank' rel="noreferrer">
           <div className='border-sky-200 border-e-2 rounded-e-3xl bg-sky-700 w-10 h-10 hover:scale-125 my-1 hover:translate-x-1 hover:transform hover:duration-300 -translate-x-0 duration-300 hover:z-50'>
             <img src={IN} className=' w-8 translate-y-1' alt='Linkin' />
           </div>
         </a>
-        <a href='mailto:eslamwtf@gmail.com' target='_blank'>
+        <a href='mailto:eslamwtf@gmail.com' target='_blank' rel="noreferrer">
           <div className='border-sky-200 border-e-2 rounded-e-3xl bg-sky-700 w-10 h-10 hover:scale-125 my-1 hover:translate-x-1 hover:transform hover:duration-300 -translate-x-0 duration-300 hover:z-50'>
             <img src={G} className=' w-8 translate-y-1' alt='Gmail' />
           </div>
         </a>
 
-        <a href='https://github.com/MalseBot' target='_blank'>
+        <a href='https://github.com/MalseBot' target='_blank' rel="noreferrer">
           <div className='border-sky-200 border-e-2 rounded-e-3xl bg-sky-700 w-10 h-10 hover:scale-125 my-1 hover:translate-x-1 hover:transform hover:duration-300 -translate-x-0 duration-300 hover:z-50'>
             <img src={Git} className=' w-8 translate-y-1' alt='Git hub' />
           </div>
         </a>
         <a
           href='https://www.facebook.com/profile.php?id=100067973934851'
-          target='_blank'>
+          target='_blank' rel="noreferrer">
           <div className='border-sky-200 border-e-2 rounded-e-3xl bg-sky-700 w-10 h-10 hover:scale-125 my-1 hover:translate-x-1 hover:transform hover:duration-300 -translate-x-0 duration-300 hover:z-50'>
             <img src={Face} className=' w-8 translate-y-1' alt='Facebook' />
           </div>
         </a>
-        <a href='https://twitter.com/eslamwtf' target='_blank'>
+        <a href='https://twitter.com/eslamwtf' target='_blank' rel="noreferrer">
           <div className='  border-e-2 rounded-e-3xl bg-sky-700 w-10 h-10 hover:scale-125 my-1 hover:translate-x-1 hover:transform hover:duration-300 -translate-x-0 duration-300 hover:z-50'>
             <svg
               viewBox='0 0 1200 1227'

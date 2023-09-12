@@ -5,11 +5,18 @@ function Projects() {
   return (
     <div className=''>
       <div className='bg-pro h-screen w-full absolute opacity-50  -z-10 overflow-x-hidden border-b-blue-600 border-b-2'></div>
-      <h2 className='pt-10 mb-5 text-center font-bold md:text-4xl text-2xl text-indigo-950 uppercase border-b-2 border-b-indigo-950'>Front-End Projects</h2>
+      <h2 className='pt-10 mb-5 text-center font-bold md:text-4xl text-2xl text-indigo-950 uppercase border-b-2 border-b-indigo-950'>
+        Front-End Projects
+      </h2>
       <div className=' grid md:grid-cols-3 gap-3 grid-cols-1 md:mx-28 mx-12  '>
         {list.map(({ link, img, title, descreption, altert }, e) => {
           return (
-            <a key={e.length} href={link} target='_blank' className='relative '>
+            <a
+              key={e.length}
+              href={link}
+              target='_blank'
+              rel='noreferrer'
+              className='relative '>
               <img
                 src={img}
                 alt={altert}
