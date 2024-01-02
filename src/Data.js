@@ -1,6 +1,14 @@
-import { proPic1, proPic4,proPic5,proPic2,proPic3 } from './assets'
+import { proPic1, proPic4, proPic5, proPic2, proPic3, proPic6 } from './assets'
 
 const list = [
+  {
+    img: proPic6,
+    title: 'FlyHyer',
+    altert: 'FlyHyer',
+    descreption:
+      'Travel website built using vite,react,typescript,and tailwind css have some new way for animation and onload animations and very light wight',
+    link: 'https://flyhyer.netlify.app/',
+  },
   {
     img: proPic4,
     title: 'Phanox',
@@ -9,6 +17,7 @@ const list = [
       'e-commerce website built using React and tailwind responsive design for mobile and PC screens',
     link: 'https://phanox-malse.netlify.app',
   },
+
   {
     link: 'https://cashamalse.netlify.app',
     altert: 'casha',
@@ -29,14 +38,16 @@ const list = [
     altert: 'shareHim',
     img: proPic3,
     link: 'https://sharehim.netlify.app',
-    descreption: 'pinterest alternative built using React.js bootstrap and sanity for backend system runs automatically very similer to pinterest',
+    descreption:
+      'pinterest alternative built using React.js bootstrap and sanity for backend system runs automatically very similer to pinterest',
   },
   {
     title: 'PointOfCorrection',
     altert: 'PoC',
     img: proPic2,
     link: 'https://pointofcorrection.netlify.app',
-    descreption: 'website to suggest the best deals avalible and best gears and accessories for you built using React and Bootstrap',
+    descreption:
+      'website to suggest the best deals avalible and best gears and accessories for you built using React and Bootstrap',
   },
 ]
 
